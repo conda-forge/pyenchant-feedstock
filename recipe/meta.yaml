@@ -1,13 +1,13 @@
 {% set name = "pyenchant" %}
-{% set version = "3.2.2" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyenchant-{{ version }}.tar.gz
-  sha256: 1cf830c6614362a78aab78d50eaf7c6c93831369c52e1bb64ffae1df0341e637
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyenchant-{{ version }}.tar.gz
+  sha256: 825288246b5debc9436f91967650974ef0d5636458502619e322c476f1283891
 
 build:
   noarch: python
